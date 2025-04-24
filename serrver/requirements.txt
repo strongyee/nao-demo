@@ -1,0 +1,28 @@
+# 基础依赖
+numpy>=1.20.0
+websockets>=10.0
+
+# PyTorch和音频处理
+torch>=2.0.0
+torchaudio>=2.0.0
+
+# 语音识别 (ASR)
+openai-whisper>=20230314
+
+# 语音活动检测 (VAD)
+# Silero VAD从PyTorch Hub加载，无需单独安装
+
+# 大语言模型
+transformers>=4.30.0
+accelerate>=0.20.0
+bitsandbytes>=0.39.0  # 用于8位量化
+
+# TTS依赖
+# orpheus-tts>=0.1.0    # Orpheus TTS - 不存在于公共PyPI仓库
+# 后备TTS引擎
+pyttsx3>=2.90
+
+# 其他工具
+sentencepiece>=0.1.97 # 用于Qwen分词
+einops>=0.6.0         # 用于模型
+scipy>=1.9.0          # 音频处理 

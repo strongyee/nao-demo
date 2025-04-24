@@ -1,0 +1,21 @@
+{
+    "server": {
+        "host": "0.0.0.0",
+        "port": 8080
+    },
+    "audio": {
+        "sample_rate": 16000,
+        "channels": 1
+    },
+    "vad": {
+        "threshold": 0.5
+    },
+    "tts": {
+        "model_path": "models/orpheus"
+    },
+    "llm": {
+        "model_name": "qwen2.5:1.5b",
+        "system_prompt_path": "prompts/system.txt"
+    },
+    "device": "cuda"
+} 
